@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace BrewVao
 {
-    public partial class Recovery1 : UserControl
+    public partial class SetRecovery : UserControl
     {
-        public Recovery1()
+        public SetRecovery()
         {
             InitializeComponent();
         }
@@ -20,6 +20,24 @@ namespace BrewVao
         private void panel1_Paint(object sender, PaintEventArgs e)
         {
 
+        }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void backButton_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+        }
+
+        private void submitButton_Click(object sender, EventArgs e)
+        {
+            foreach (Control control in HomePage.Instance.PnlContainer.Controls.OfType<UserControl>())
+            {
+                control.Hide();
+            }
         }
     }
 }

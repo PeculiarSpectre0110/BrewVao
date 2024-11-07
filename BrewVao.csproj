@@ -88,11 +88,11 @@
     <Compile Include="Interface 3.Designer.cs">
       <DependentUpon>Interface 3.cs</DependentUpon>
     </Compile>
-    <Compile Include="Interface1.cs">
+    <Compile Include="MainMenu.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Interface1.Designer.cs">
-      <DependentUpon>Interface1.cs</DependentUpon>
+    <Compile Include="MainMenu.Designer.cs">
+      <DependentUpon>MainMenu.cs</DependentUpon>
     </Compile>
     <Compile Include="LoginAdmin.cs">
       <SubType>UserControl</SubType>
@@ -154,8 +154,8 @@
     <EmbeddedResource Include="Interface 3.resx">
       <DependentUpon>Interface 3.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Interface1.resx">
-      <DependentUpon>Interface1.cs</DependentUpon>
+    <EmbeddedResource Include="MainMenu.resx">
+      <DependentUpon>MainMenu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LoginAdmin.resx">
       <DependentUpon>LoginAdmin.cs</DependentUpon>

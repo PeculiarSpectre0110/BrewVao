@@ -10,19 +10,14 @@ using System.Windows.Forms;
 
 namespace BrewVao
 {
-    public partial class SignUp : UserControl
+    public partial class MainMenu : UserControl
     {
-        public SignUp()
+        public MainMenu()
         {
             InitializeComponent();
         }
 
-        private void panel1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void label3_Click(object sender, EventArgs e)
+        private void Interface1_Load(object sender, EventArgs e)
         {
 
         }
@@ -32,17 +27,12 @@ namespace BrewVao
 
         }
 
-        private void label1_Click(object sender, EventArgs e)
+        private void panel1_Paint(object sender, PaintEventArgs e)
         {
 
         }
 
-        private void label5_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void confirmButton_Click(object sender, EventArgs e)
+        private void recoveryButton_Click(object sender, EventArgs e)
         {
             if (HomePage.Instance.PnlContainer.Controls.ContainsKey("SetRecovery"))
             {
@@ -56,14 +46,6 @@ namespace BrewVao
             setrecovery.Dock = DockStyle.Fill;
             HomePage.Instance.PnlContainer.Controls.Add(setrecovery);
             setrecovery.BringToFront();
-        }
-
-        private void backButton_Click(object sender, EventArgs e)
-        {
-            foreach (Control control in HomePage.Instance.PnlContainer.Controls.OfType<UserControl>())
-            {
-                control.Hide();
-            }
         }
     }
 }
