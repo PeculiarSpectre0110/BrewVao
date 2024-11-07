@@ -34,7 +34,7 @@
             this.adminButton = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.recoverButton = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.confirmButton = new System.Windows.Forms.Button();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
@@ -73,7 +73,7 @@
             this.panel1.Controls.Add(this.adminButton);
             this.panel1.Controls.Add(this.button3);
             this.panel1.Controls.Add(this.recoverButton);
-            this.panel1.Controls.Add(this.button1);
+            this.panel1.Controls.Add(this.confirmButton);
             this.panel1.Controls.Add(this.textBox2);
             this.panel1.Controls.Add(this.label7);
             this.panel1.Controls.Add(this.textBox1);
@@ -119,16 +119,16 @@
             this.recoverButton.UseVisualStyleBackColor = true;
             this.recoverButton.Click += new System.EventHandler(this.recoverButton_Click_1);
             // 
-            // button1
+            // confirmButton
             // 
-            this.button1.Location = new System.Drawing.Point(32, 124);
-            this.button1.Margin = new System.Windows.Forms.Padding(2);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(78, 32);
-            this.button1.TabIndex = 10;
-            this.button1.Text = "Submit";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.confirmButton.Location = new System.Drawing.Point(32, 124);
+            this.confirmButton.Margin = new System.Windows.Forms.Padding(2);
+            this.confirmButton.Name = "confirmButton";
+            this.confirmButton.Size = new System.Drawing.Size(78, 32);
+            this.confirmButton.TabIndex = 10;
+            this.confirmButton.Text = "Confirm";
+            this.confirmButton.UseVisualStyleBackColor = true;
+            this.confirmButton.Click += new System.EventHandler(this.confirmButton_Click);
             // 
             // textBox2
             // 
@@ -245,7 +245,7 @@
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button confirmButton;
         private System.Windows.Forms.Button recoverButton;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button button3;

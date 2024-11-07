@@ -76,17 +76,17 @@
     <Compile Include="HomePage.Designer.cs">
       <DependentUpon>HomePage.cs</DependentUpon>
     </Compile>
-    <Compile Include="Interface 2.cs">
+    <Compile Include="ShopOverview.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Interface 2.Designer.cs">
-      <DependentUpon>Interface 2.cs</DependentUpon>
+    <Compile Include="ShopOverview.Designer.cs">
+      <DependentUpon>ShopOverview.cs</DependentUpon>
     </Compile>
-    <Compile Include="Interface 3.cs">
+    <Compile Include="Suggestion.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Interface 3.Designer.cs">
-      <DependentUpon>Interface 3.cs</DependentUpon>
+    <Compile Include="Suggestion.Designer.cs">
+      <DependentUpon>Suggestion.cs</DependentUpon>
     </Compile>
     <Compile Include="MainMenu.cs">
       <SubType>UserControl</SubType>
@@ -148,11 +148,11 @@
     <EmbeddedResource Include="HomePage.resx">
       <DependentUpon>HomePage.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Interface 2.resx">
-      <DependentUpon>Interface 2.cs</DependentUpon>
+    <EmbeddedResource Include="ShopOverview.resx">
+      <DependentUpon>ShopOverview.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Interface 3.resx">
-      <DependentUpon>Interface 3.cs</DependentUpon>
+    <EmbeddedResource Include="Suggestion.resx">
+      <DependentUpon>Suggestion.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MainMenu.resx">
       <DependentUpon>MainMenu.cs</DependentUpon>

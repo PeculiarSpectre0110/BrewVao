@@ -47,5 +47,45 @@ namespace BrewVao
             HomePage.Instance.PnlContainer.Controls.Add(setrecovery);
             setrecovery.BringToFront();
         }
+
+        private void logoutButton_Click(object sender, EventArgs e)
+        {
+            foreach (Control control in HomePage.Instance.PnlContainer.Controls.OfType<UserControl>())
+            {
+                control.Hide();
+            }
+        }
+
+        private void suggestButton_Click(object sender, EventArgs e)
+        {
+            if (HomePage.Instance.PnlContainer.Controls.ContainsKey("Suggestion"))
+            {
+                Control existingSuggestion = HomePage.Instance.PnlContainer.Controls["Suggestion"];
+                HomePage.Instance.PnlContainer.Controls.Remove(existingSuggestion);
+                existingSuggestion.Dispose(); // Dispose the old instance to free resources
+            }
+
+            // Create and add a fresh instance
+            Suggestion suggestion = new Suggestion();
+            suggestion.Dock = DockStyle.Fill;
+            HomePage.Instance.PnlContainer.Controls.Add(suggestion);
+            suggestion.BringToFront();
+        }
+
+        private void discoverButton_Click(object sender, EventArgs e)
+        {
+            if (HomePage.Instance.PnlContainer.Controls.ContainsKey("ShopOverview"))
+            {
+                Control existingShopOverview = HomePage.Instance.PnlContainer.Controls["ShopOverview"];
+                HomePage.Instance.PnlContainer.Controls.Remove(existingShopOverview);
+                existingShopOverview.Dispose(); // Dispose the old instance to free resources
+            }
+
+            // Create and add a fresh instance
+            ShopOverview shopoverview = new ShopOverview();
+            shopoverview.Dock = DockStyle.Fill;
+            HomePage.Instance.PnlContainer.Controls.Add(shopoverview);
+            shopoverview.BringToFront();
+        }
     }
 }

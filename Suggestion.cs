@@ -10,21 +10,21 @@ using System.Windows.Forms;
 
 namespace BrewVao
 {
-    public partial class Interface_2 : UserControl
+    public partial class Suggestion : UserControl
     {
-        public Interface_2()
+        public Suggestion()
         {
             InitializeComponent();
         }
 
-        private void label2_Click(object sender, EventArgs e)
+        private void Interface_3_Load(object sender, EventArgs e)
         {
 
         }
 
-        private void label9_Click(object sender, EventArgs e)
+        private void backButton_Click(object sender, EventArgs e)
         {
-
+            this.Hide();
         }
     }
 }

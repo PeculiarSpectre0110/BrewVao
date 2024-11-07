@@ -72,9 +72,20 @@ namespace BrewVao
 
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void confirmButton_Click(object sender, EventArgs e)
         {
+            if (HomePage.Instance.PnlContainer.Controls.ContainsKey("MainMenu"))
+            {
+                Control existingMainMenu = HomePage.Instance.PnlContainer.Controls["MainMenu"];
+                HomePage.Instance.PnlContainer.Controls.Remove(existingMainMenu);
+                existingMainMenu.Dispose(); // Dispose the old instance to free resources
+            }
 
+            // Create and add a fresh instance
+            MainMenu mainmenu = new MainMenu();
+            mainmenu.Dock = DockStyle.Fill;
+            HomePage.Instance.PnlContainer.Controls.Add(mainmenu);
+            mainmenu.BringToFront();
         }
 
         private void button2_Click(object sender, EventArgs e)
