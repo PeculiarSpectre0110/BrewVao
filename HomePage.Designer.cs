@@ -98,16 +98,16 @@
             this.panelContainer.Controls.Add(this.label3);
             this.panelContainer.Controls.Add(this.signupButton);
             this.panelContainer.Controls.Add(this.loginButton);
-            this.panelContainer.Location = new System.Drawing.Point(0, -1);
+            this.panelContainer.Location = new System.Drawing.Point(0, 0);
             this.panelContainer.Name = "panelContainer";
-            this.panelContainer.Size = new System.Drawing.Size(609, 366);
+            this.panelContainer.Size = new System.Drawing.Size(641, 381);
             this.panelContainer.TabIndex = 5;
             // 
             // HomePage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(608, 366);
+            this.ClientSize = new System.Drawing.Size(641, 381);
             this.Controls.Add(this.panelContainer);
             this.Controls.Add(this.label2);
             this.Margin = new System.Windows.Forms.Padding(2);

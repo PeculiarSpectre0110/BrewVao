@@ -75,7 +75,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(64, 41);
+            this.label1.Location = new System.Drawing.Point(60, 11);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(54, 13);
@@ -123,7 +123,7 @@
             this.panel1.Controls.Add(this.label3);
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.panel2);
-            this.panel1.Location = new System.Drawing.Point(36, 58);
+            this.panel1.Location = new System.Drawing.Point(19, 26);
             this.panel1.Margin = new System.Windows.Forms.Padding(2);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(620, 380);
@@ -508,7 +508,7 @@
             this.Controls.Add(this.label1);
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Suggestion";
-            this.Size = new System.Drawing.Size(692, 497);
+            this.Size = new System.Drawing.Size(649, 417);
             this.Load += new System.EventHandler(this.Interface_3_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();

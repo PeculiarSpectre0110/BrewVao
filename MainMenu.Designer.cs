@@ -35,7 +35,6 @@
             this.panel3 = new System.Windows.Forms.Panel();
             this.discoverButton = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
-            this.button4 = new System.Windows.Forms.Button();
             this.suggestButton = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
@@ -50,20 +49,19 @@
             this.panel1.Controls.Add(this.recoveryButton);
             this.panel1.Controls.Add(this.button2);
             this.panel1.Controls.Add(this.panel3);
-            this.panel1.Controls.Add(this.button4);
             this.panel1.Controls.Add(this.suggestButton);
             this.panel1.Controls.Add(this.button1);
             this.panel1.Controls.Add(this.panel2);
             this.panel1.Location = new System.Drawing.Point(2, 25);
             this.panel1.Margin = new System.Windows.Forms.Padding(2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(603, 334);
+            this.panel1.Size = new System.Drawing.Size(639, 354);
             this.panel1.TabIndex = 0;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
             // logoutButton
             // 
-            this.logoutButton.Location = new System.Drawing.Point(350, 306);
+            this.logoutButton.Location = new System.Drawing.Point(8, 326);
             this.logoutButton.Margin = new System.Windows.Forms.Padding(2);
             this.logoutButton.Name = "logoutButton";
             this.logoutButton.Size = new System.Drawing.Size(63, 26);
@@ -74,7 +72,7 @@
             // 
             // recoveryButton
             // 
-            this.recoveryButton.Location = new System.Drawing.Point(417, 306);
+            this.recoveryButton.Location = new System.Drawing.Point(8, 296);
             this.recoveryButton.Margin = new System.Windows.Forms.Padding(2);
             this.recoveryButton.Name = "recoveryButton";
             this.recoveryButton.Size = new System.Drawing.Size(63, 26);
@@ -124,19 +122,9 @@
             this.label2.TabIndex = 6;
             this.label2.Text = "Humble";
             // 
-            // button4
-            // 
-            this.button4.Location = new System.Drawing.Point(7, 336);
-            this.button4.Margin = new System.Windows.Forms.Padding(2);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(64, 25);
-            this.button4.TabIndex = 4;
-            this.button4.Text = "Logout";
-            this.button4.UseVisualStyleBackColor = true;
-            // 
             // suggestButton
             // 
-            this.suggestButton.Location = new System.Drawing.Point(484, 306);
+            this.suggestButton.Location = new System.Drawing.Point(520, 326);
             this.suggestButton.Margin = new System.Windows.Forms.Padding(2);
             this.suggestButton.Name = "suggestButton";
             this.suggestButton.Size = new System.Drawing.Size(117, 26);
@@ -181,7 +169,7 @@
             this.Controls.Add(this.panel1);
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "MainMenu";
-            this.Size = new System.Drawing.Size(607, 361);
+            this.Size = new System.Drawing.Size(641, 381);
             this.Load += new System.EventHandler(this.Interface1_Load);
             this.panel1.ResumeLayout(false);
             this.panel3.ResumeLayout(false);
@@ -196,7 +184,6 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button suggestButton;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Panel panel3;
